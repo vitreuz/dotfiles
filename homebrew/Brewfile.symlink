@@ -1,18 +1,28 @@
 tap "homebrew/autoupdate"
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 
 brew "coreutils"
+brew "go"
 brew "lastpass-cli"
 brew "neovim"
+brew "python@3.9"
 brew "tldr"
+brew "tree"
+brew "virtualenv"
+brew "romkatv/powerlevel10k/powerlevel10k"
 
 cask "iterm2"
+cask "visual-studio-code"
 
 cask "authy"
 cask "discord"
 cask "evernote"
 cask "lastpass"
+cask "signal"
 cask "spotify"
 cask "todoist"
+
+cask "font-sf-mono-for-powerline"

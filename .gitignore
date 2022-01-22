@@ -1,2 +1,5 @@
 # localfiles
 **/*.local.symlink
+
+# Temp Brewfile when updating symlink
+homebrew/Brewfile
