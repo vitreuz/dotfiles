@@ -1,0 +1,18 @@
+tap "homebrew/autoupdate"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+
+brew "coreutils"
+brew "lastpass-cli"
+brew "neovim"
+brew "tldr"
+
+cask "iterm2"
+
+cask "authy"
+cask "discord"
+cask "evernote"
+cask "lastpass"
+cask "spotify"
+cask "todoist"
