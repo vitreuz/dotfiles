@@ -2,7 +2,7 @@ zmodload zsh/complist
 
 # base completion settings
 zstyle ':completion:*' completer _extensions _complete _approximate 
-zstyle ':completion:*' menu select search
+zstyle ':completion:*' menu select search interactive
 
 # enable caching
 zstyle ':completion:*' use-cache on
